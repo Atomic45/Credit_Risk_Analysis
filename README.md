@@ -19,7 +19,7 @@ The results for each machine learning model includes balanced accuracy, precisio
 ### Naive Random Oversampling
 ![Naive Random Oversampling](https://user-images.githubusercontent.com/30300621/194776793-ea32ba59-28cf-49f9-85e9-a05620ee6e84.PNG)
 
-**1. Naive Random Oversampling - Balanced Accuracy Score** 
+**1. Balanced Accuracy Score - 65%** 
 
 ![image](https://user-images.githubusercontent.com/30300621/194776933-5235e9bb-7c36-4e46-a162-b711293cc781.png)
 
@@ -32,7 +32,7 @@ ________________________________________________________________________________
 
 ![SMOTE Oversampling](https://user-images.githubusercontent.com/30300621/194777174-8e537ce0-7e1a-426d-9e49-a5c90b85a4c1.PNG)
 
-**1. SMOTE - Balanced Accuracy Score**
+**1. Balanced Accuracy Score - 62%**
 
 ![image](https://user-images.githubusercontent.com/30300621/194777412-ac2599a9-ccd4-4a04-84fb-ac9780994f21.png)
 
@@ -45,7 +45,7 @@ ________________________________________________________________________________
 
 ![Undersampling](https://user-images.githubusercontent.com/30300621/194777182-91d59cdc-3d28-4cd5-8687-b47f23687d9c.PNG)
 
-**1. Undersampling - Balanced Accuracy Score**
+**1. Balanced Accuracy Score - 62%**
 
 ![image](https://user-images.githubusercontent.com/30300621/194777729-3381b3c5-2b85-48fd-8bf3-af0841c2e6da.png)
 
@@ -58,7 +58,7 @@ ________________________________________________________________________________
 
 ![Combo UnderOver Sampling](https://user-images.githubusercontent.com/30300621/194777196-79dc73d5-9d67-48c0-b18f-cb24b2408258.PNG)
 
-**1. Combinations of Oversampling and Undersampling - Balanced Accuracy Support**
+**1. Balanced Accuracy Support - 52%**
 
 ![image](https://user-images.githubusercontent.com/30300621/194777809-17515aee-b642-4e54-be6b-f595159148a9.png)
 
@@ -71,7 +71,7 @@ ________________________________________________________________________________
 
 ![Bal Random Forest Classifier](https://user-images.githubusercontent.com/30300621/194777315-5b40192b-e691-4d38-b8ba-f567cc47698f.PNG)
 
-**1. Balanced Random Forest Classifier - Balanced Accuracy Support**
+**1. Balanced Accuracy Support - 79%**
 
 ![image](https://user-images.githubusercontent.com/30300621/194778153-39cd4647-2235-44cc-9ce9-ede403f9af50.png)
 
@@ -84,7 +84,7 @@ ________________________________________________________________________________
 
 ![AdaBooster](https://user-images.githubusercontent.com/30300621/194777330-9275b699-46c2-4d98-917c-847950283099.PNG)
 
-**1. Easy Ensemble AdaBooster Classifier - Balanced Accuracy Support**
+**1. Balanced Accuracy Support - 93%**
 
 ![image](https://user-images.githubusercontent.com/30300621/194778220-b3d3b91e-e761-4d68-a08c-c42db4e0b8ba.png)
 
@@ -94,4 +94,4 @@ and high for low_risk loans = 1.00**
 **3. Recall - under the rec column, high_risk loans and low_risk loans are high and about the same 0.91 and 0.94**
 _______________________________________________________________________________________________________________________
 ## Summary
-
+In Summary, the first five models had an accuracy rate lower than 70%. Once the Classifier models were created, the accuracy rate increased with the Easy Ensemble AdaBooster Classifier having the highest accuracy rate of 93% for High-Risk loans. The sensitivity rate from the recall column was also high at 91%, and the precision was similar for all the models. The best selection would be the Easy Ensemble AdaBoost Classifier as its accuracy percentage rate was significant compared to the other models for the credit card analysis. 
